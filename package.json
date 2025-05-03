@@ -1,5 +1,5 @@
 {
-  "name": "reno-hono-react-query",
+  "name": "@reno-stack/hono-react-query",
   "version": "0.0.1",
   "description": "A utility library for using Hono with React Query",
   "main": "./dist/index.js",
@@ -36,5 +36,8 @@
   "peerDependencies": {
     "@tanstack/react-query": "^5.x",
     "hono": "^4.x"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

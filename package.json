@@ -1,0 +1,40 @@
+{
+  "name": "reno-hono-react-query",
+  "version": "0.0.1",
+  "description": "A utility library for using Hono with React Query",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup"
+  },
+  "keywords": [
+    "hono",
+    "react-query",
+    "utility",
+    "utility library"
+  ],
+  "author": {
+    "name": "Kasra Ghoreyshi",
+    "email": "kasra.ghoreyshi84@gmail.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reno-stack/persian-helpers.git"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "tsup": "^8.4.0",
+    "typescript": "^5.8.3",
+    "@tanstack/react-query": "^5.75.1",
+    "hono": "^4.7.8"
+  },
+  "peerDependencies": {
+    "@tanstack/react-query": "^5.x",
+    "hono": "^4.x"
+  }
+}

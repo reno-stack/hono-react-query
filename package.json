@@ -24,7 +24,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/reno-stack/persian-helpers.git"
+    "url": "git+https://github.com/reno-stack/hono-react-query.git"
   },
   "devDependencies": {
     "ts-node": "^10.9.2",

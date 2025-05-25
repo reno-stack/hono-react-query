@@ -1,6 +1,6 @@
 {
   "name": "@reno-stack/hono-react-query",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A utility library for using Hono with React Query",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",

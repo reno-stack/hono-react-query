@@ -59,7 +59,7 @@ export function createHonoQueryOptions<
     })) as any;
 }
 
-type Or<T, K> = keyof K extends never ? T | void : T;
+export type Or<T, K> = keyof K extends never ? T | void : T;
 
 export type ValidationError = string | string[];
 
